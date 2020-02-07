@@ -13,5 +13,5 @@ RUN apk add --no-cache \
   ca-certificates \
   ;
 COPY --from=build-stage /app/goofys /usr/bin/goofys
-ADD ./docker-entrypoint.sh /
+COPY ./docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
