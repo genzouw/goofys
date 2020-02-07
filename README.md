@@ -28,7 +28,7 @@ If you can use the `docker` command, no installation is required.
 
 ## Usage
 
-### When the mount directory is not specified
+### If the mount directory is not specified, 
 
 Using the "BUCKET" environment variable, mount on the "/mnt/${BUCKET}" directory.
 
@@ -41,7 +41,7 @@ $ docker \
   genzouw/goofys
 ```
 
-### When the mount directory is specified
+### If the mount directory is specified,
 
 Using the "MOUNT_DIR" environment variable, mount on the "${MOUNT_DIR}" directory.
 
@@ -81,9 +81,11 @@ $ docker \
 
 This software is released under the MIT License, see LICENSE.
 
+## Help
 
-## Contribution
+Got a question ?
 
+File a [Github issue](https://github.com/genzouw/goofys/issues), send an email to [genzouw@gmail.com](mailto:genzouw@gmail.com) or tweet to [@genzouw](https://twitter.com/genzouw) on Twitter.
 
 ## Author Information
 
